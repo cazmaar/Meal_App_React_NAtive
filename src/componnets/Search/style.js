@@ -11,7 +11,7 @@ container:{
  elevation:3,
  shadowOpacity:0.2,
  padding: 15,
- borderRadius: 40
+ borderRadius: 40,
 
 },
 Input:{
