@@ -6,7 +6,7 @@ const Search = () => {
   return (
     <View style={style.container}>
     <FontAwesome name="search" size={25} />
-      <TextInput placeholder="Restaurants, food" />
+      <TextInput style={style.Input} placeholder="Restaurants, food" />
     </View>
   );
 };
