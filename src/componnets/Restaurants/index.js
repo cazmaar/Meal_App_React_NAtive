@@ -11,7 +11,7 @@ const Restaurants = ({ term }) => {
       {
         headers: {
           Authorization:
-            "Bearer 8QoDRv24VSSNu-MXJ5evOzfifSjxivpCSUNs-G9y7eSSUHVb3_UAC46QNnC0oDtwfe2g8jZ5wB218A7KEcOprRxz_EwQVaKZwiGR7ABHXBPGtL2EW2ztYQ1rHiJGYnYx",
+          
         },
       }
     );
