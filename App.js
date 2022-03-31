@@ -10,6 +10,7 @@ import pasta from "./src/Images/pasta.png";
 import smoothies from "./src/Images/smoothies.png";
 import steak from "./src/Images/steak.png";
 import { useState } from "react";
+import Restaurants from "./src/componnets/Restaurants/index.js";
 
 export default function App() {
   const [term, setTerm] = useState("burger");
@@ -21,7 +22,7 @@ export default function App() {
     { name: "burger", image: steak },
   ];
 
-  console.log(term);
+
 
   return (
     <View style={style.container}>
@@ -44,7 +45,7 @@ export default function App() {
           );
         }}
       />
-
+      <Restaurants term={term} />
       <StatusBar style="auto" />
     </View>
   );
