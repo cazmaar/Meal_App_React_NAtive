@@ -21,12 +21,12 @@ export default function App() {
     { name: "burger", image: steak },
   ];
 
-console.log(term);
+  console.log(term);
 
   return (
     <View style={style.container}>
       <Header />
-      <Search />
+      <Search setTerm={setTerm} />
       <FlatList
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -42,9 +42,6 @@ console.log(term);
               key={index}
             />
           );
-        }}
-        keyExtractor={(category) => {
-          category.name;
         }}
       />
 
